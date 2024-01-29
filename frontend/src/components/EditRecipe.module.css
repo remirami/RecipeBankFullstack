@@ -1,0 +1,204 @@
+.container{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  min-height: 100vh;
+  padding: 1rem;
+  padding-top: 150px;
+  font-family: 'Quicksand';
+}
+.formContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  background-color: #ffffff;
+  gap: 1rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); 
+
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  gap: 20px;
+}
+.foodTypeSelect{
+  font-family: 'Quicksand';
+  margin-top: 5px
+}
+.inputField {
+  width: 100%;
+  max-width: 600px;
+  padding: 0.5rem;
+  margin-top: 5px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.removeButton {
+  margin-top: 10px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 2px solid #000000;
+
+}
+.removeButton:hover{
+  background-color: #4b2903;
+  color: #ffffff
+
+}
+.addButton {
+  margin-top: 10px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 2px solid #000000;
+
+}
+.addButton:hover{
+  background-color: #4b2903;
+  color: #ffffff
+}
+.selectField{
+  font-family: 'Quicksand';
+  margin-right: 10px
+}
+.categorySelect {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+  border: 2px solid #000000;
+
+}
+.submitButton {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Quicksand';
+
+}
+.submitButton:hover{
+  background-color: #4b2903;
+  color: #ffffff
+
+}
+.addButton {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-family: 'Quicksand';
+}
+.removeButton {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-family: 'Quicksand';
+
+}
+.cancelButton {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-family: 'Quicksand';
+
+}
+.cancelButton:hover{
+  background-color: #4b2903;
+  color: #ffffff
+
+}
+.dietaryPreferencesSelect {
+  display: block; 
+  margin-bottom: 15px;
+  margin-top: 15px 
+}
+
+.dietaryPreferencesSelect label {
+  display: flex;
+  align-items: center; 
+  cursor: pointer;
+  margin-bottom: 10px; 
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 5px; 
+}
+
+.dietaryPreferencesSelect input[type="checkbox"] {
+  margin-right: 5px; 
+  cursor: pointer;
+}
+
+.dietaryPreferencesSelect label {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9rem; 
+  margin-left: 5px;
+  margin-top: 8px 
+}
+input[type="checkbox"], .inputField, .categorySelect {
+  box-sizing: border-box;
+}
+.labelContainer {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%; 
+}
+
+.error {
+  color: #ff0000; 
+  margin-top: 5px;
+  font-size: 0.9em; 
+}

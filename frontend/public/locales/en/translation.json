@@ -1,0 +1,524 @@
+{
+  "welcomeTexts": {
+    "welcome": "Welcome to Recipebank",
+    "longText": "Do you remember your grandparents' blueberry pie recipe? Or the best burger you've tasted? Or are you just looking for cooking inspiration? On this site, you can browse, add and share your favorite recipes conveniently."
+  },
+  "changeLanguage": "Change language",
+  "loading": "Loading...",
+  "recipe_not_found": "Recipe not found",
+  "ingredients": "Ingredients",
+  "instructions": "Instructions",
+  "edit": "Edit",
+  "delete_recipe": "Delete Recipe",
+  "back_to_recipes": "Back to recipes",
+  "logged_in_successfully": "Logged in succesfully",
+  "logged_out": "Logged out",
+  "addRecipe": {
+    "title": "Add recipe",
+    "groupTitle": "Food Group title",
+    "name": "Name",
+    "mealType": "Meal type",
+    "type": "Category type",
+    "description": "Description",
+    "category": "Category",
+    "servingSize": "Serving Size",
+    "options": {
+      "selectCategory": "Select category",
+      "selectType": "Select category type",
+      "selectMealType": "Select a meal type",
+      "dessert": "Dessert",
+      "main-course": "Main Course",
+      "appetizer": "Appetizer",
+      "side-dish": "Side Dish",
+      "breakfast": "Breakfast",
+      "pizza": "Pizza",
+      "pasta": "Pasta",
+      "beverage": "Beverage",
+      "bake": "Bake",
+      "pie": "Pie",
+      "pastry": "Pastry",
+      "cake": "Cake",
+      "salad": "Salad",
+      "Soup": "Soup",
+      "snack": "Snack",
+      "bread": "Bread",
+      "other": "Other"
+    },
+    
+    "ingredients": {
+      "ingredients": "Ingredients",
+      "title": "Ingredients",
+      "addGroup": "Add food group",
+      "removeGroup": "Remove food group",
+      "name": "Name",
+      "amount": "Amount",
+      "remove": "Remove",
+      "addIngredient": "Add ingredient",
+      "add": "Add Ingredient",
+      "unitLabel": "Unit", 
+      "unit": {
+        "unitSelection": "Select a unit",
+
+        "g": "g (grams)",
+        "kg": "kg (kilograms)",
+        "oz": "oz (ounces)",
+        "lb": "lb (pounds)",
+        "dl": "dl (deciliters)",
+        "ml": "ml (milliliters)",
+        "l": "l (liters)",
+        "tbsp": "tbsp (tablespoons)",
+        "tsp": "tsp (teaspoons)",
+        "cup": "cup",
+        "piece": "piece",
+        "clove": "clove",
+        "pinch":"pinch",
+        "gallon": "gallon",
+        "fluidounce": "fluid ounce",
+        "bunch": "bunch",
+        "sprig": "sprig",
+        "can": "can"
+
+
+      }    
+    },
+    "instructions": {
+      "title": "Instructions",
+      "instruction": "Instruction",
+      "remove": "Remove",
+      "addInstruction": "Add instruction"
+    },
+    "addRecipeButton": "Add recipe",
+    "submit": "Submit",
+    "errors": {
+      "nameRequired": "Name is required.",
+      "foodCategory": "Food category is required.",
+      "descriptionRequired": "Description is required.",
+      "categoryRequired": "Category is required.",
+      "ingredientsRequired": "Insert atleast one ingredient",
+      "instructionsRequired": "Add instructions",
+      "amountsRequired": "Insert amount",
+      "instructionRequired": "Cannot be empty",
+      "invalidIngredientAmount": "Has to have number in front of the unit",
+      "invalidQuantity": "Must have atleast 1 quantity",
+      "duplicateIngredients": "Ingredients must be unique",
+      "duplicateInstructions": "Instructions must be unique",
+      "prepTimeInvalid": "Prepping time must be over 0 minutes.",
+      "cookTimeInvalid": "Cooking time must be over 0 minutes.",
+      "fieldRequired": "This field is required.",
+      "servingSizeInvalid": "Serving size must be a positive number.",
+      "maxIngredients": "You can add up to 30 ingredients only.",
+      "maxInstructions": "You can add up to 30 instructions only.",
+      "recipeExists": "A recipe with this name already exists.",
+      "selectValue": "Please select main foodtype",
+      "foodCategor": "Please select a food category",
+      "positiveInteger": "Time must be over 0 minutes",
+      "atLeastOneIngredient": "You must insert atleast one ingredient",
+      "quanPositive": "Please insert positive integer",
+      "userNotLoggedIn": "User is not logged in.",
+      "mustBeLoggedIn": "You must be logged in to add a recipe.",
+      "errorCreatingRecipe": "Error creating recipe. Please try again.",
+      "fieldEmpty": "This field cannot be empty.",
+      "nonCompatibleFoodTypes": "Cannot set dietary preference when non-compatible food types are selected."    },
+    "foodType": "Main food type",
+    "prepTime": "Prepping time in minutes",
+    "cookingTime": "Cooking time in minutes",
+    "dietaryPreferences": "Possible dietary preferences",
+    "dietaryOptions": {
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "glutenFree": "Gluten free",
+      "lowFat": "Low fat",
+      "eggFree": "No eggs",
+      "lowCarb": "Low carb",
+      "dairyFree": "Dairy free",
+      "lowSodium": "Low sodium",
+      "lowSugar": "Low sugar",
+      "paleo": "Paleo",
+      "keto": "Keto",
+      "sugarFree": "Sugar free",
+      "lactoseIntolerant": "Lactose intolerant"
+
+    },
+    "foodTypeTranslation": "Select a food type",
+        "selectionOptions": {
+          "Vegetable": "Vegetable",
+          "Red Meat & Ground Meat": "Red Meat & Ground Meat",
+          "Marinades & Sauces": "Marinades & Sauces",
+          "Fish & Seafood": "Fish & Seafood",
+          "Fish": "Fish",
+          "Dairy & Eggs": "Dairy & Eggs",
+          "Chicken & Poultry": "Chicken & Poultry",
+          "Grains & Rice": "Grains & Rice",
+          "Legumes": "Legumes",
+          "Fruits & Berries": "Fruits & Berries",
+          "Seafood": "Seafood",
+          "Red Meat": "Red Meat",
+          "Ground Meat": "Ground Meat",
+          "Sausage":"Sausage",
+          "Dairy":"Dairy",
+          "Eggs":"Eggs",
+          "Marinade":"Marinade",
+          "Sauce":"Sauce",
+          "Grain":"Grain",
+          "Rice":"Rice",
+          "Fruit":"Fruit",
+          "Berries":"Berries",
+          "Chicken":"Chicken",
+          "Poultry":"Poultry"
+        },
+
+    "backtoRecipes": "Back to recipes >"
+  },
+  "validation": {
+    "fieldRequired": "This field is required."
+  },
+  "login": {
+    "title": "Log in",
+    "username": "Username",
+    "password": "Password",
+    "login_button": "Log in",
+    "reset_password": "Forgot Password?",
+    "forgotpassword": "Forgot password?",
+
+    "errors":{
+      "missingToken": "Token is missing in the response.",
+      "invalidCredentials": "Invalid username or password."
+
+    }
+  },
+  "register": {
+    "title": "Register",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "register_button": "Register",
+    "errors": {
+      "passwordMismatch": "Passwords do not match. Please try again.",
+      "registrationFailed": "Registration failed. Please try again."
+    }
+  }
+,
+  "navbar": {
+    "home": "Home",
+    "recipes": "Recipes",
+    "random_recipe": "Random recipe",
+    "search": "Search",
+    "add_recipe": "Add Recipe",
+    "login": "Log in",
+    "register": "Sign up",
+    "profile": "Profile",
+    "logout": "Logout",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Contact",
+    "placeholder": "Click here to type (maximum of 1000 characters)",
+    "submit": "Submit",
+    "bug_report": "Bug Report",
+    "regular_feedback": "Feedback",
+    "feedback_type": "Feedback type: ",
+    "sending": "Sending feedback",
+    "error": "Message was too long",
+    "thank_you_message": "Thank you for your feedback!"
+
+
+  },
+  "randomRecipe": {
+    "title": "Random Recipe",
+    "ingredients": "Ingredients:",
+    "instructions": "Instructions:",
+    "ViewRecipe": "View Recipe"
+  },
+  "randomRecipeButton": {
+    "text": "Random recipe"
+  },
+  "search": {
+    "search_recipes": "Search Recipes",
+    "search_placeholder": "Search by name or ingredient",
+    "include_liked": "Search by likes",
+    "searchByUsername": "Search by username",
+    "reset_button": "Reset",
+
+    "search_button": "Search",
+    "search_by_likes": "Filter by likes",
+    "no_results": "Didn't find any recipes with those terms, try again.",
+    "dietaryPreferences":"Dietary preferences",
+    "options": {
+      "selectCategory": "Select category",
+      "selectMealType": "Select a meal type",
+
+      "Dessert": "Dessert",
+      "Main Course": "Main Course",
+      "Appetizer": "Appetizer",
+      "Side Dish": "Side Dish",
+      "Breakfast": "Breakfast",
+      "Salad": "Salad",
+      "Soup": "Soup",
+      "Snack": "Snack",
+      "Pizza": "Pizza",
+      "Pasta":  "Pasta",
+      "Beverage": "Beverage",
+      "Bread": "Bread",
+      "Bake": "Bake",
+      "Pie": "Pie",
+      "Cake": "Cake",
+      "Pastry": "Pastry",
+      "Other":"Other",
+      "selectFoodType": "Select food type",
+      "selectSubType": "Select subtype",
+      "Vegetable": "Vegetable",
+      "Red Meat & Ground Meat": "Red Meat & Ground Meat",
+      "Marinades & Sauces": "Marinades & Sauces",
+      "Fish & Seafood": "Fish & Seafood",
+      "Dairy & Eggs": "Dairy & Eggs",
+      "Chicken & Poultry": "Chicken & Poultry",
+      "Grains & Rice": "Grains & Rice",
+      "Fruits & Berries": "Fruits & Berries",
+      "Sausage":"Sausage",
+    "Red Meat": "Red Meat",
+  "Ground Meat": "Ground Meat",
+  "Marinade": "Marinade",
+  "Sauce":"Sauce",
+  "Fish": "Fish",
+  "Seafood": "Seafood",
+  "Dairy": "Dairy",
+  "Eggs":"Eggs",
+  "Chicken":"Chicken",
+  "Poultry": "Poultry",
+  "Grain": "Grain",
+  "Rice":"Rice",
+  "Fruit":"Fruit",
+  "Berries":"Berry"
+
+    },"dietaryOptions": {
+      "vegan": "Vegan",
+      "vegetarian": "Vegetarian",
+      "glutenfree": "Gluten-free",
+      "dairyfree": "Dairy-free",
+      "paleo": "Paleo",
+      "keto": "Keto",
+      "lowcarb": "Low-carb",
+      "lowfat": "Low-fat",
+      "lowsodium": "Low-sodium",
+      "sugarfree": "Sugar-free",
+      "lactoseintolerant": "Lactose-intolerant",
+      "eggfree": "Egg-free"
+    }
+
+  },
+  "recipeList": {
+    "title": "Recipes",
+    "searchPlaceholder": "Search recipes by name, category or ingredients"
+
+  },"reset_password": {
+    "title": "Reset Password",
+    "email": "Email",
+    "submit_button": "Reset Password",
+    "success_message": "A password reset link has been sent to your email.",
+    "error_message": "Failed to send password reset email. Please try again."
+  },  "profile": {
+    "title": "Profile",
+    "username": "Username",
+    "email": "Email",
+    "changePassword": "Change Password",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "noRecipes": "No recipes found.",
+    "loadingUserData": "Loading user data...",
+    "yourRecipes": "Your Recipes",
+    "submitPassword": "Submit changes"
+
+  },  "recipeCard": {
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "made_by": "Made by",
+    "unknown_user": "Unknown"
+  },  "openBook": {
+    "ingredients": "Ingredients",
+    "mealType":"Meal type",
+    "type":"Category type",
+    "instructions": "Instructions",
+    "createdBy": "Created by",
+    "no_description": "No description provided for this recipe.",
+    "Edit": "Edit Recipe",
+    "prepTime": "Prep time",
+    "cookTime": "Cooking time",
+    "servingSize":"Serving Size",
+    "Delete": "Delete Recipe",
+    "tooltipLike": "Please log in to like the recipe",
+    "tooltipDislike": "Please log in to dislike the recipe",
+    "foodType": "Food type",
+    "dietaryPreference": "Dietary preference",
+    "no_dietaryPreference": "No dietary preference",
+    "category":"Category",
+    "no_servingSize": "",
+    "selectionOptions": {
+      "Main Course": "Main Course",
+      "Appetizer": "Appetizer",
+      "Side Dish": "Side Dish",
+      "Breakfast": "Breakfast",
+      "Dessert": "Dessert",
+      "pizza": "Pizza",
+      "pasta": "Pasta",
+      "Beverage": "Beverage",
+      "Salad": "Salad",
+      "Soup": "Soup",
+      "Snack": "Snack",
+      "Bread": "Bread",
+      "Vegetarian": "Vegetarian",
+      "Vegan": "Vegan",
+      "Gluten-free": "Gluten free",
+      "Egg-free": "Egg-free",
+      "Low-carb": "Low carb",
+      "Dairy-free": "Dairy free",
+      "lowSodium": "Low sodium",
+    "Low-sugar": "Low sugar",
+    "Low-fat": "Low fat",
+    "Low-sodium": "Low salt",
+    "Sugar-free": "Sugar free",
+    "lactoseIntolerant": "Dairy free",
+    "paleo": "Paleo",
+    "Other": "Other"
+
+    },
+    "units": {
+      "g":"g (grams)",
+      "fluidounce":"fluid ounce",
+      "cup":"cup",
+      "piece":"piece",
+      "clove":"clove",
+      "oz":"oz",
+      "kg":"kg (kilograms)"
+    }
+  },
+  "forgot": {
+  "password": "Forgot password?"
+  },
+  "editRecipe": {
+    "title": "Edit Recipe",
+    "mealType":"Meal type",
+    "type":"Category type",
+    "name": "Name",
+    "description": "Description",
+    "ingredient": "Ingredients",
+    "ingredientName": "Name",
+    "ingredientUnit": "Unit",
+    "ingredientAmount": "Amount",
+    "addIngredient": "Add Ingredient",
+    "addIngredientGroup": "Add Ingredient Group",
+    "removeIngredientGroup": "Remove Ingredient Group",
+    "groupTitlePlaceholder": "Ingredient group",
+    "instructions": "Instructions",
+    "step": "Step {{number}}",
+    "addInstruction": "Add Instruction",
+    "saveChanges": "Save Changes",
+    "removeInstruction": "Remove",
+    "removeIngredient": "Remove",
+    "cancel": "Cancel",
+    "ingredientsRequired": "Atleast 1 ingredient is required",
+    "instructionsRequired": "Atleast 1 instruction is required",
+    "foodType": "Food type",
+    "prepTime": "Prepping time",
+    "cookTime": "Cooking time",
+    "foodSubType": "Sub type",
+    "dietaryPreferences": "Dietary preferences",
+    "errors":{
+      "prepTimeInvalid":"Prepping time must be over 0 minutes.",
+      "cookTimeInvalid":"Cooking time must be over 0 minutes.",
+      "invalidFoodType": "You must choose atleast one food subtype"
+    },
+    "options": {
+      "selectOptions": "Select option",
+      "selectType":"Select category type",
+      "dessert": "Dessert",
+      "main-course": "Main Course",
+      "selectFoodType": "Select food type",
+      "appetizer": "Appetizer",
+      "breakfast": "Breakfast",
+      "side-dish": "Side dish",
+      "pizza": "Pizza",
+      "pasta": "Pasta",
+      "beverage": "Beverage",
+      "salad": "Salad",
+      "Soup": "Soup",
+      "snack": "Snack",
+      "bread": "Bread",
+      "bake": "Bake",
+      "pie":"Pie",
+      "pastry":"Pastry",
+      "cake":"Cake",
+      "other": "Other"
+    },
+    "ingredients": {
+      "label": "Ingredients",
+      "unit": {
+        "unitSelection":"Select a unit",
+        "g":"g (grams)",
+        "kg":"kg (kilograms)",
+        "oz":"oz (ounces)",
+        "lb":"lb (pounds)",
+        "dl":"dl (deciliters)",
+        "ml":"ml (milliliters)",
+        "l":"l (liters)",
+        "tbsp":"tbsp (tablespoons)",
+        "tsp":"tsp (teaspoons)",
+        "cup":"cup",
+        "piece": "piece",
+        "clove":"clove",
+        "gallon":"gallon",
+        "fluidounce":"fluid ounce",
+        "bunch":"bunch",
+        "can":"can"
+
+      }
+    },
+    "foodSubTypes": {
+      "Red Meat & Ground Meat": "Red Meat & Ground Meat",
+      "Fish & Seafood": "Fish & Seafood",
+      "Dairy & Eggs": "Dairy & Eggs",
+      "Chicken & Poultry": "Chicken & Poultry",
+      "Fruits & Berries": "Fruits & Berries",
+      "Marinades & Sauces": "Marinades & Sauces",
+      "Grains & Rice": "Grains & Rice",
+      "Sausage": "Sausage"
+    },
+    "foodSubTypeItems": {
+      "Red Meat": "Red Meat",
+      "Ground Meat": "Ground Meat",
+      "Fish": "Fish",
+      "Seafood": "Seafood",
+      "Dairy": "Dairy",
+      "Sausage": "Sausage",
+      "Eggs": "Eggs",
+      "Chicken": "Chicken",
+      "Poultry": "Poultry",
+      "Fruit": "Fruit",
+      "Berries": "Berries",
+      "Marinade": "Marinade",
+      "Sauce": "Sauce",
+      "Grain": "Grain",
+      "Rice": "Rice"
+    }
+
+  } ,
+"resetPassword" : {
+  "ResetPassword": "Reset password",
+  "NewPassword": "New Password",
+  "Submit": "Submit"
+},
+"forgotPassword" : {
+  "Email": "Email",
+  "Submit": "Submit"
+}
+
+  }
+
+
+  
+
+
+
+
+

@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  padding: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: medium;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputGroup {
+  width: 100%;
+  max-width: 600px;
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); 
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.registerButton {
+  background-color: #ffffff;
+  border: 2px solid;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  transition: transform 0.3s ease;
+
+
+}
+.registerButton:hover{
+  background-color: #4b2903;
+  color: #ffffff;
+  transform: translate(5px, 5px); 
+
+}.registerButton:before {
+  content: ">>";
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.registerButton:hover:before {
+  right: 10px;
+  opacity: 1;
+
+}
+.error {
+  color: red;
+}

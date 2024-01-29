@@ -1,0 +1,13 @@
+node_modules/
+
+.env
+
+.env.test
+
+.eslintrc
+
+keystore.p12
+
+your_cert.crt
+
+your_key.key
