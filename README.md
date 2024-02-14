@@ -14,11 +14,3 @@ Installation
 4. Install dependencies for the frontend
    cd frontend
    npm install
-
-Configuration
-- Set up the necessary environment variables:
-  - Create a `.env` file in the `backend` directory.
-  - Add the following variables:
-    ```
-    DATABASE_URL=your_database_url
-    ```
